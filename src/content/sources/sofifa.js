@@ -255,6 +255,7 @@ class SOFIFAPlayer {
  * @type {string[]}
  */
 const supportedVersions = [
+  "FC 27",
   "FC 26",
   "FC 25",
   "FC 24",
