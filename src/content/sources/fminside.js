@@ -410,7 +410,7 @@ window.PESConverter.registerSource({
     /**
      * @returns {boolean} True if inside a player page.
      */
-    return /^\/players\/\d+-[^/]+\/\d+-[^/]+$/.test(
+    return /^\/players\/\d+-fm-\d+\/\d+-[^/]+$/.test(
       window.location.pathname,
     );
   },
